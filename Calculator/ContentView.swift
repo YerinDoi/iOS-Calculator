@@ -167,9 +167,9 @@ struct ContentView: View {
     
     private func calculateButtonWidth(button buttonType: ButtonType) -> CGFloat {
         if buttonType == .zero {
-            return (UIScreen.main.bounds.width - 5 * 10)
+            return (UIScreen.main.bounds.width - 5 * 10) / 4 * 2
         } else {
-            return (UIScreen.main.bounds.width - 5 * 10) / 2
+            return (UIScreen.main.bounds.width - 5 * 10) / 4
         }
     }
     
